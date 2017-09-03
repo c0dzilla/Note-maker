@@ -1,7 +1,7 @@
 <?php
-$servername = "localhost";
-$username = "root";
-$password = "sdslabsmysql";
+$servername = SERVER_NAME;
+$username = USERNAME;
+$password = PASSWORD;
 
 // Create connection
 $conn = new mysqli($servername, $username, $password);
